@@ -679,11 +679,11 @@ map.on("rendercomplete", function(evt) {
         var attributionList = attribution.getElementsByTagName('ul')[0];
         var firstLayerAttribution = attributionList.getElementsByTagName('li')[0];
         var qgis2webAttribution = document.createElement('li');
-        qgis2webAttribution.innerHTML = '<a href="https://www.facebook.com/mohamed.afqir.5/">FACEBOOK</a> &middot; ';
+        qgis2webAttribution.innerHTML = '<a href="/"></a> &middot; ';
         var olAttribution = document.createElement('li');
-        olAttribution.innerHTML = '<a href="https://www.facebook.com/mohamed.afqir.5/">AFQIR MOHAMED</a> &middot; ';
+        olAttribution.innerHTML = '<a href=""></a> &middot; ';
         var qgisAttribution = document.createElement('li');
-        qgisAttribution.innerHTML = '<a href="TEL/">0673013577</a>';
+        qgisAttribution.innerHTML = '<a href="TEL/"></a>';
         attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);
         attributionList.insertBefore(olAttribution, firstLayerAttribution);
         attributionList.insertBefore(qgisAttribution, firstLayerAttribution);
