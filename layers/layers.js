@@ -36,7 +36,7 @@ var lyr_TriangulationGPSBoulemane_2 = new ol.layer.Vector({
                 source:jsonSource_TriangulationGPSBoulemane_2, 
                 style: style_TriangulationGPSBoulemane_2,
                 interactive: true,
-                title: '<img src="styles/legend/TriangulationGPSBoulemane_2.png" /> Triangulation GPS Boulemane'
+                title: '<img src="styles/legend/TriangulationGPSBoulemane_2.png" /> Rattachement 2'
             });
 var format_TriangulationGPSSefrou_3 = new ol.format.GeoJSON();
 var features_TriangulationGPSSefrou_3 = format_TriangulationGPSSefrou_3.readFeatures(json_TriangulationGPSSefrou_3, 
