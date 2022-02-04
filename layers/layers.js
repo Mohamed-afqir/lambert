@@ -50,7 +50,7 @@ var lyr_TriangulationGPSSefrou_3 = new ol.layer.Vector({
                 source:jsonSource_TriangulationGPSSefrou_3, 
                 style: style_TriangulationGPSSefrou_3,
                 interactive: true,
-                title: '<img src="styles/legend/TriangulationGPSSefrou_3.png" /> Triangulation GPS Sefrou'
+                title: '<img src="styles/legend/TriangulationGPSSefrou_3.png" /> Rattachement 1'
             });
 
 lyr_GoogleSatelliteHybrid_0.setVisible(true);lyr_GoogleMap_1.setVisible(true);lyr_TriangulationGPSBoulemane_2.setVisible(true);lyr_TriangulationGPSSefrou_3.setVisible(true);
